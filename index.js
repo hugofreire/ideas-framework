@@ -97,4 +97,4 @@ function combineElements() {
   console.log(`Technology Features: ${technologyFeatures.join(', ')}`);
 }
 
-combineElements();
+setInterval(combineElements(),30000);
